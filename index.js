@@ -28,7 +28,7 @@ recognition.addEventListener("result", (event) => {
   if (event.results[0].isFinal) {
     app.msg = `I heard - ${transcript}`;
     // check if input starts with 'new'
-    if (transcript.indexOf("new") === 0) {
+    if (transcript.indexOf("add") === 0) {
       const todo = transcript.substring(3);
       app.todos.push(todo);
       console.log(app.todos);

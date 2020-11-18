@@ -1,0 +1,11 @@
+body {
+  background-color: lightgray;
+}
+
+main {
+  padding-top: 100px;
+}
+li,
+h2 {
+  text-transform: capitalize;
+}
