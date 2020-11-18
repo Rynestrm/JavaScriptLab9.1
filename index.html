@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <style>
+      li {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app">
+      <h1>ToDos</h1>
+      <h2 style="font-size: 16px">{{msg}}</h2>
+      <ul id="list">
+        <li v-for="todo in todos">{{todo}}</li>
+      </ul>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
